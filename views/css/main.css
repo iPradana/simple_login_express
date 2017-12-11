@@ -1,0 +1,58 @@
+body{
+	padding-top:60px;
+	margin-bottom:30px;
+	background:#a3a3a3;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+.login-box,
+.register-box {
+  width: 460px;
+  margin: 0% auto;
+  border:1px solid black;
+  background:#00a65a;
+}
+@media (max-width: 768px) {
+  .login-box,
+  .register-box {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+.login-box-body,
+.register-box-body {
+  padding: 20px;
+  border-top: 0;
+  color: black;
+  background:#00a65a;
+  font-weight:bold;
+  font-size:18px;
+}
+.login-box-body .form-control-feedback,
+.register-box-body .form-control-feedback {
+  color: #777;
+}
+.login-box-msg,
+.register-box-msg {
+  margin: 0;
+  text-align: center;
+  padding: 0 20px 20px 20px;
+}
+
+.lg-btn{
+	background:#b7db76;
+	border:1px solid yellow;
+	color:black;
+	font-weight:bold;
+}
+
+a{
+	color:red;
+}
+
+a:hover{
+	color:red;
+	cursor:pointer;
+}
